@@ -1,0 +1,16 @@
+﻿<h2>Foots List</h2>
+<table class="table table-hover table-striped table-bordered">
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>cost</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="froot in Froots">
+            <td>{{froot.name}}</td>
+            <td>{{froot.price|currency}}</td>
+        </tr>
+    </tbody>
+
+</table>
